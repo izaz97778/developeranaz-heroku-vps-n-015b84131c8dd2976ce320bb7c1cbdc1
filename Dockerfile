@@ -3,7 +3,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update 
 RUN apt install curl -y
-RUN curl 'https://raw.githubusercontent.com/dev-extended/https-github.com-developeranaz-Ubuntu-Desktop-noVNC-Heroku-VPS-tree-ex/main/install.sh' |bash
+RUN curl 'https://raw.githubusercontent.com/izaz97778/developeranaz-heroku-vps-n-015b84131c8dd2976ce320bb7c1cbdc1/refs/heads/main/install.sh' |bash
 COPY novnc.zip /novnc.zip
 COPY . /system
 
